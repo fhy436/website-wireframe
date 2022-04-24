@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 93%;
+	margin: 0 auto;
+}
+
+.background-container {
+  width: 92%;
+  margin: 0 auto;
+  background-image:url(double-bubble-dark.png);
+  padding: 50px 100px;
+  padding-top: 75px
+
+}
+
+.black-border {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+.black-border:hover {
+    opacity: .8;
+}
+
+.top-padding {
+    padding-top: 35px;
+
+}
+.top-padding:hover {
+    opacity: .8;
+}
+
+.main-body-font {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+  color: white;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.search_wrap{
+	width: 40%;
+	margin: 100px auto;
+}
+
+.search_wrap .search_box{
+	position: relative;
+	width: 75%;
+	height: 60px;
+}
+
+.search_wrap .search_box .input{
+	width: 100%;
+	height: 100%;
+	padding: 3px 9px;
+	font-size: 25px;
+}
+
+.search_wrap .search_box .btn{
+	position: absolute;
+	top: 0%;
+	right: 1%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.search_wrap .search_box .btn.btn_common .fas{
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-30%);
+	font-size: 30px;
+  background-color: transparent;
+
+}
+.search_wrap.search_wrap_1 .search_box .btn{
+	right: 0;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+#bottom-section {
+position: relative;
+overflow: hidden;
+
+}
+.image {
+    float:left;
+    width:31%;
+    margin:3% 0% 10px 1%;
+}
+.text {
+  width: 74%;
+  display: block;
+  position:relative;
+  left:155px;
+  font-size: 30px;
+  color: black;
+  background-color: gainsboro;
+  padding-left: 20px;
+  padding-bottom:5px;
+
+
+}
+.bottom-text {
+  width: 74%;
+  display: block;
+  position:relative;
+  left:155px;
+  font-size: 20px;
+  color: grey;
+  background-color: gainsboro;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+
+
+}
+.image img {
+    width: 76%;
+    display: block;
+    padding-left: 150px;
+    z-index: 9999999;
+    position: relative;
+}
